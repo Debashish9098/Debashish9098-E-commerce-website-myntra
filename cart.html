@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website for Messho</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section id="header">
+    <a href="#"><img src="img/Myntra-Logo-PNG_005.png" alt="" class="logo"></a>
+
+    <div class="search-box">
+      <div class="row">
+        <button class="btn"> <i class='bx bx-search'></i></button>
+        <input type="text" id="input-box" placeholder=" Search for products, brands and more" autocomplete="off">
+        <div class="result-box">
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li id="lg-bag"><a class="active" href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+        <a href="#" id="close"><i class='bx bx-window-close'></i></a>
+      </ul>
+    </div>
+
+    <div id="mobile">
+      <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+      <i id="bar" class='bx bx-menu'></i>
+    </div>
+  </section>
+
+  <section id="page-header" class="about-header">
+    <h2>#Let's_talk</h2>
+    <p>LEAVE A MESSAGE, We love to hear from you!</p>
+  </section>
+
+  <section id="cart" class="section-p1">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Remove</td>
+          <td>Image</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Subtotal</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#"><i class='bx bx-message-square-x'></i></a></td>
+          <td><img src="img/product/f1.jpg" alt=""></td>
+          <td>Cartoon Astronaut T-Shirt</td>
+          <td> ₹799.00</td>
+          <td><input type="number" value="3"></td>
+          <td>₹799.00</td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class='bx bx-message-square-x'></i></a></td>
+          <td><img src="img/product/f2.jpg" alt=""></td>
+          <td>Cartoon Astronaut T-Shirt</td>
+          <td> ₹799.00</td>
+          <td><input type="number" value="3"></td>
+          <td>₹799.00</td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class='bx bx-message-square-x'></i></a></td>
+          <td><img src="img/product/f3.jpg" alt=""></td>
+          <td>Cartoon Astronaut T-Shirt</td>
+          <td> ₹799.00</td>
+          <td><input type="number" value="3"></td>
+          <td>₹799.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="cart-add" class="section-p1">
+    <div id="Coupon">
+      <h3>Apply Coupon</h3>
+      <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
+      </div>
+    </div>
+    <div id="subtotal">
+   <h3>Cart Totals</h3>
+   <table>
+    <tr>
+      <td>Cart Subtotal</td>
+      <td>₹ 335</td>
+    </tr>
+    <tr>
+      <td>Shipping</td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td><strong>₹335</strong></td>
+    </tr>
+   </table>
+   <button class="normal">Proceed to checkout</button>
+    </div>
+  </section>
+  
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="img/Myntra-Logo-PNG_005.png" alt="" style="height: 60px;">
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> WMVX+9F6,Bellandur,Railway Station Rd,<br>Kadubeesanahalli,Bengaluru, Karnataka </p>
+      <p><strong>Phone:</strong> (+91) 9109827957/(+91)9098427449 </p>
+      <p><strong>Hours:</strong>10:- 07:00 Mon - Sat </p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <a href="https://www.instagram.com/devashish_0514?igsh=dzV3ZDg5c290MnVp"><i class='bx bxl-instagram'></i></a>
+          <a href="www.linkedin.com/in/debashish-pandey-a01881257"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/Debashish9098"><i class='bx bxl-github'></i></a>
+          <a href="https://www.pinterest.com/"><i class='bx bxl-pinterest-alt'></i></a>
+          <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google PLay</p>
+      <div class="row">
+        <img src="img/pay/app.jpg" alt="" style="margin-right: 10px;">
+        <img src="img/pay/play.jpg" alt="">
+      </div>
+      <p>Secured Payment Gateways</p>
+      <img src="img/pay/pay.png" alt="">
+    </div>
+    <div class="copyright">
+      <p>@ 2024, Devashish - HTML CSS E-Commerce Template</p>
+    </div>
+  </footer>
+
+
+  <script src="./Script.js"></script>
+</body>
+
+</html>
